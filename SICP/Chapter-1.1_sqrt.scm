@@ -1,4 +1,4 @@
-(load "Chapter-1.1_square.scm")
+(define (square x) (* x x))
 
 (define (sqr-iter guess x)
   (if (good-enough? guess x)

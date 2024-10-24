@@ -1,6 +1,5 @@
-;; Exercise 1.8
-
-(load "Chapter-1.1_square.scm")
+;;;; Exercise 1.8
+(define (square x) (* x x))
 
 (define (cubrt-iter guess x)
   (if (good-enough? guess x)
