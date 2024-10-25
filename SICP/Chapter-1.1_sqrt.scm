@@ -1,3 +1,4 @@
+;;;; Chapter 1.1 sqrt
 (define (square x) (* x x))
 
 (define (sqr-iter guess x)

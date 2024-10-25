@@ -1,4 +1,4 @@
-; Chapter 1.2.4
+;;;; Chapter 1.2.4
 (define (square x) (* x x))
 
 (define (expt-rec b n)

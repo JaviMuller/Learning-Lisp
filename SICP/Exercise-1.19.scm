@@ -16,8 +16,8 @@ q'<-(q^2 + 2*p*q)
           ((even? count)
            (fib-iter a
                      b
-                     (+ (square p) (square q))       ; compute p'
-                     (+ (square q) (* 2 p q)) ; compute q'
+                     (+ (square p) (square q))    ; compute p'
+                     (+ (square q) (* 2 p q))     ; compute q'
                      (/ count 2)))
            (else (fib-iter (+ (* b q) (* a q) (* a p))
                            (+ (* b p) (* a q))

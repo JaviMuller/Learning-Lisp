@@ -1,4 +1,4 @@
-; Chapter 1.2 - Fibonacci
+;;;; Chapter 1.2 - Fibonacci
 (define (fib n)
   (define (fib-iter a b count)
     (if (= count 0)
